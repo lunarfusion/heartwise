@@ -1,0 +1,9 @@
+name: Disabled
+
+variant: disabled
+
+slots:
+  label: "Button Label"
+
+props:
+  disabled: true

@@ -1,0 +1,60 @@
+name: button
+status: experimental
+group: "atoms"
+links:
+  - "https://emory.edu"
+
+variants:
+  primary:
+    title: Primary
+  secondary:
+    title: Secondary
+  ghost:
+    title: Ghost
+  empty:
+    title: Empty
+  pill:
+    title: Pill
+
+props:
+  type: object
+  properties:
+
+    has_icon:
+      title: Button with Icon
+      type: boolean
+      default: false
+
+    icon_only:
+      title: Button with Icon and invisible label
+      type: boolean
+      default: false
+
+    icon:
+      $ref: ui-patterns://icon
+      title: Icon
+      description: 'button icon'
+
+    disabled:
+      title: Button cannot be selected
+      type: boolean
+      default: false
+
+    input_id:
+      type: string
+      $ref: "ui-patterns://identifier"
+
+    input_value:
+      type: string
+      title: Input value
+      default: submit
+
+slots:
+  label:
+    title: Label
+    description: 'Label text of the button'
+
+libraryOverrides:
+    css:
+      button.css: {}
+

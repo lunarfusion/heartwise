@@ -1,0 +1,13 @@
+{%
+  set classes = [
+    'title',
+    variant and variant != 'default' ? 'title--' ~ variant,
+    size ? 'title--size' ~ size
+  ]
+%}
+
+
+<{{ html_tag|default('h3') }}
+ {{ attributes.addClass(classes) }}">
+    {{ label }}
+</{{ html_tag|default('h3') }}>

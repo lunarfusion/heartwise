@@ -1,0 +1,34 @@
+:root {
+  @media (prefers-color-scheme: dark) {
+    /*** Foreground / Text - Base Theme ***/
+    --color-fg-base: var(--color-white);
+    --color-fg-subdued: var(--color-gray-095);
+    
+    --color-fg-base: var(--color-black);
+    
+    --color-fg-primary: var(--color-blue-080);
+    --color-fg-secondary: var(--color-cyan-080);
+    
+    --color-border-primary: var(--color-blue-060);
+    --color-border-primary-light: var(--color-blue-080);
+    
+    /*** Borders - Base Theme - Neutral ***/
+    --color-border-neutral: var(--color-gray-080);
+    --color-border-neutral-light: var(--color-gray-095);
+    
+    /*** Actions - Link Text ***/
+    --color-link-default: var(--color-cyan-080);
+    --color-link-hover: var(--color-cyan-060);
+    --color-link-focus: var(--color-cyan-060);
+    --color-link-active: var(--color-cyan-080);
+    --color-link-visited: var(--color-fg-base);
+    
+    
+    /********* FOREGROUND SWAPS ON LIGHT BACKGROUNDS *********/
+    .inverted-bg {
+      /*** Base Foreground ***/
+      --color-fg-base: var(--color-black);
+      --color-fg-subdued: var(--color-gray-005);
+    }
+  }
+}

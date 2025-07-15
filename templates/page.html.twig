@@ -1,0 +1,68 @@
+{#
+/**
+ * Spectrum Theme Page Template
+ */
+#}
+<div class="page page--default">
+  <header role="banner" class="region region--banner">
+    <div class="container container--wide">
+      {{ page.header_top }}
+    </div>
+
+      {{ page.header }}
+
+    <div class="container container--wide">
+      {{ page.header_bottom }}
+    </div>
+  </header>
+
+  <main role="main" class="main-content">
+    <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
+    <div class="container container--wide region region--content-top">
+      {{ page.content_top }}
+    </div>
+
+    <div class="region region--content-sidebars">
+      <div class="container">
+        <div class="row">
+
+          {% if page.sidebar_first %}
+            <aside class="region region--sidebar col" role="complementary">
+              {{ page.sidebar_first }}
+            </aside>
+          {% endif %}
+
+          {% if page.sidebar_first or page.sidebar_second %}
+          <div class="region region--content col col--9">
+            {{ page.content }}
+          </div>
+          {% else %}
+          <div class="region region--content col col--12">
+            {{ page.content }}
+          </div>
+          {% endif %}
+
+          {% if page.sidebar_second %}
+            <aside class="region region--sidebar col" role="complementary">
+              {{ page.sidebar_second }}
+            </aside>
+          {% endif %}
+
+        </div><!-- end row -->
+      </div><!-- end container -->
+    </div><!--end main page content-->
+
+    {{ page.content_bottom }}
+  </main>
+
+  {% if page.footer %}
+    <footer class="region region--footer" role="contentinfo">
+      <div class="container container--wide">
+      {{ page.footer_top }}
+      {{ page.footer }}
+      {{ page.footer_bottom }}
+      </div>
+    </footer>
+  {% endif %}
+
+</div>

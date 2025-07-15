@@ -1,0 +1,135 @@
+/*!
+ * Each semantic variable maps to a primitive variable
+ * Semantic variables should follow a naming structure of genral-to-specific
+ * 1 - Design system name, 2 - the property of the variable, 3 - what the variable applies to (bg, fg, text), 4 - lastly, modifiers
+ * Example: --designsystemname-color-text-primary
+ * Example: --color-border-primary
+ *
+ */
+
+:root {
+  /****************** BASE ******************/
+  /*** Base Foreground ***/
+  --color-fg-base: var(--color-black);
+  --color-fg-subdued: var(--color-gray-005);
+  
+  /*** Base Background ***/
+  --color-bg-base: var(--color-white);
+  
+  /*** Background - Neutral ***/
+  --color-bg-neutral-dark: var(--color-gray-070);
+  --color-bg-neutral: var(--color-gray-085);
+  --color-bg-neutral-light: var(--color-gray-095);
+  --color-bg-neutral-extra-light: var(--color-gray-097);
+  
+  /*** Borders - Base Theme - Neutral ***/
+  --color-border-neutral-dark: var(--color-gray-060);
+  --color-border-neutral: var(--color-gray-080);
+  --color-border-neutral-light: var(--color-gray-090);
+  --color-border-neutral-extra-light: var(--color-gray-095);
+  
+  /****************** SYSTEM ******************/
+  /*** Focus Indicator ***/
+  --color-focus-indicator: var(--color-yellow-060);
+  
+  /*** System accent color ***/
+  --color-accent: var(--color-blue-020);
+  
+  /*** Actions - Link Text ***/
+  --color-link-default: var(--color-blue-030);
+  --color-link-hover: var(--color-blue-050);
+  --color-link-focus: var(--color-blue-050);
+  --color-link-active: var(--color-blue-020);
+  --color-link-visited: var(--color-fg-base);
+  --color-link-decoration: var(--color-cyan-060);
+  --color-link-decoration-hover: var(--color-blue-050);
+  --color-link-disabled: var(--color-gray-070);
+  
+  /****************** PRIMARY BRAND ******************/
+  /*** Foreground ***/
+  --color-fg-primary: var(--color-blue-020);
+  --color-fg-primary-medium: var(--color-blue-040);
+  
+  /*** Background ***/
+  --color-bg-primary-dark: var(--color-blue-010);
+  --color-bg-primary: var(--color-blue-020);
+  --color-bg-primary-medium: var(--color-blue-040);
+  --color-bg-primary-light: var(--color-blue-080);
+  --color-bg-primary-extra-light: var(--color-blue-095);
+  
+  /*** Border ***/
+  --color-border-primary: var(--color-blue-020);
+  --color-border-primary-light: var(--color-blue-060);
+  
+  /****************** SECONDARY BRAND ******************/
+  /*** Foreground ***/
+  --color-fg-secondary: var(--color-cyan-020);
+  
+  /*** Background ***/
+  --color-bg-secondary: var(--color-cyan-040);
+  --color-bg-secondary-light: var(--color-cyan-080);
+  --color-bg-secondary-extra-light: var(--color-cyan-090);
+  
+  --color-border-secondary: var(--color-cyan-040);
+  --color-border-secondary-light: var(--color-cyan-070);
+  
+  --color-border-tertiary: var(--color-yellow-060);
+  --color-border-tertiary-light: var(--color-yellow-070);
+  
+  
+  
+  /*** STATIC does not change with dark mode or other themes ***/
+  /*** Foreground / Text - Static ***/
+  --color-fg-white-static: var(--color-white);
+  --color-fg-black-static: var(--color-black);
+  
+  /*** Background - Static ***/
+  --color-bg-white-static: var(--color-white);
+  --color-bg-black-static: var(--color-black);
+  
+  
+  /********* SYSTEM ALERTS *********/
+  /*** Negative ***/
+  --color-fg-negative: var(--color-red-030);
+  --color-border-negative: var(--color-red-040);
+  --color-bg-negative: var(--color-red-095);
+  
+  /*** Warning ***/
+  --color-fg-warning: var(--color-yellow-040);
+  --color-border-warning: var(--color-yellow-060);
+  --color-bg-warning: var(--color-yellow-095);
+  
+  /*** Positive ***/
+  --color-fg-positive: var(--color-green-020);
+  --color-border-positive: var(--color-green-030);
+  --color-bg-positive: var(--color-green-095);
+  
+  /*** Informative ***/
+  --color-fg-informative: var(--color-blue-030);
+  --color-border-informative: var(--color-blue-040);
+  --color-bg-informative: var(--color-blue-095);
+  
+  /********* FOREGROUND SWAPS ON DARK BACKGROUNDS *********/
+  .inverted-bg {
+    /*** Foreground / Text - Base Theme ***/
+    --color-fg-base: var(--color-white);
+    --color-fg-subdued: var(--color-gray-095);
+    
+    --color-fg-primary: var(--color-blue-080);
+    --color-fg-secondary: var(--color-cyan-080);
+    
+    --color-border-primary: var(--color-blue-060);
+    --color-border-primary-light: var(--color-blue-080);
+    
+    /*** Borders - Base Theme - Neutral ***/
+    --color-border-neutral: var(--color-gray-080);
+    --color-border-neutral-light: var(--color-gray-095);
+    
+    /*** Actions - Link Text ***/
+    --color-link-default: var(--color-cyan-080);
+    --color-link-hover: var(--color-cyan-060);
+    --color-link-focus: var(--color-cyan-060);
+    --color-link-active: var(--color-cyan-080);
+    --color-link-visited: var(--color-fg-base);
+  }
+}

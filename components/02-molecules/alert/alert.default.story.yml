@@ -1,0 +1,35 @@
+name: Default
+
+props:
+  icon:
+    pack_id: heartwise_fontawesome_icons
+    icon_id: circle-info
+    settings:
+      icon_size: M
+      extra_class: alert-icon
+
+slots:
+  title:
+  - type: component
+    component: 'heartwise:title'
+    props:
+      variant: alert
+      size: L
+    slots:
+      label: "Title of the Alert"
+
+  content: "Xxxxx xxxxxxx xxxxxx xxxxxxxxx. Xxxxxxx xxxxxx xxx. Xxxxx xxxxxxx xxxxxx xxxxxxxxx. Xxxxxxx xxxxxx xxx. Xxxxx xxxxxxx xxxxxx xxxxxxxxx."
+
+  buttons:
+  - type: component
+    component: 'heartwise:button'
+    props:
+      variant: primary
+    slots:
+      label: "Primary Button"
+  - type: component
+    component: 'heartwise:button'
+    props:
+      variant: ghost
+    slots:
+      label: "Ghost Button"

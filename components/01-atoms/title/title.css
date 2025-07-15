@@ -1,0 +1,82 @@
+.title {
+  color: var(--color-fg-base);
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-style: normal;
+  font-optical-sizing: auto;
+  max-width: var(--size-charlimit-lg);
+  margin-block-start: 0;
+  margin-block-end: 0.5rem;
+}
+  
+  .title__icon {}
+  
+  /* this variant is for page titles on */
+  
+  .title--page {
+    margin-block: 2rem;
+  }
+  
+  .title--card {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding-inline-start: 1rem;
+  }
+  
+  .title--card::before {
+      content: "";
+      width: 6px;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      background-color: var(--color-border-secondary);
+      overflow: hidden;
+      border-radius: var(--size-radius-sm);
+    }
+  
+  .title--section {
+    position: relative;
+    display: block;
+    padding-block-start: 1.5rem;
+  }
+  
+  .title--section::before {
+      --flag-height: 12px;
+      --notch-calc: calc(100% - var(--flag-height));
+      
+      content: "";
+      width: 5rem;
+      height: var(--flag-height);
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: var(--color-border-secondary);
+      transform: translateX(calc((var(--flag-height) + var(--size-col-padding)) * -1));
+      overflow: hidden;
+      border-end-end-radius: var(--flag-height);
+      border-start-start-radius: var(--flag-height);
+    }
+  
+  .title--alert {
+    margin: 0;
+    font-family: var(--font-sans-serif);
+  }
+  
+  .title--sizeS {
+    font-size: var(--size-text-small);
+  }
+  
+  .title--sizeM {
+    font-size: var(--size-text-med);
+  }
+  
+  .title--sizeL {
+    font-size: var(--size-text-lrg);
+  }
+  
+  .title--sizeXL {
+    font-size: var(--size-text-ex-lrg);
+  }

@@ -1,0 +1,4 @@
+heartwise:
+  css:
+    theme:
+      dist/style.css: {}

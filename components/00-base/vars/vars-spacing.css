@@ -1,0 +1,49 @@
+:root {
+  /* corner radius */
+  --size-radius-sm: 8px;
+  --size-radius-med: 12px;
+  --size-radius-lrg: 16px;
+  
+  /* focus indicator */
+  --size-gap-focus-indicator: 2px;
+  --size-focus-indicator: 2px;
+  --color-focus-indicator: hsl(190, 100%, 50%);
+  
+  /****** Character width limiter ******/
+  --size-charlimit: 75ch;
+  /* max width for normal size text */
+  --size-charlimit-md: 60ch;
+  /* max width limit for medium size text */
+  --size-charlimit-lg: 55ch;
+  /* max width limit for large size text */
+  
+  
+  /* component */
+  --size-border-component: 1.6px;
+  --size-gap-x: 1.5rem;
+  --size-gap-y: 1rem;
+  
+  /* font size */
+  --size-text-ex-lrg: 24px;
+  --size-text-lrg: 24px;
+  --size-text-med: 18px;
+  --size-text-normal: 16px;
+  --size-text-small: 14px;
+  --size-text-extra-small: 11px;
+  --size-text-extra-extra-small: 8px;
+  
+  /*** Container widths ***/
+  --size-container-width: 1200px;
+  --size-container-width-lg: 1500px;
+  --size-container-width-extra-lg: 1800px;
+  
+  /*** Flex columns ***/
+  --size-col-padding: 1rem;
+  
+  /*** Breakpoints ***/
+  --em-size-breakpoint-extra-large: 1200px;
+  --em-size-breakpoint-large: 992px;
+  --em-size-breakpoint-med: 768px;
+  --em-size-breakpoint-small: 576px;
+  
+}

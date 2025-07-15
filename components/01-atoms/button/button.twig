@@ -1,0 +1,43 @@
+{%
+  set classes = [
+    'button',
+    variant and variant != 'default' ? 'button--' ~ variant,
+    disabled == 'true' ? 'is-disabled',
+    has_icon == 'true' ? 'button--icon',
+    icon_only == 'true' ? 'button--icon-only'
+  ]
+%}
+
+{% if disabled %}
+  {% set attributes = attributes.addClass('is-disabled') %}
+  {% set attributes = attributes.setAttribute('disabled', 'true') %}
+{% endif %}
+
+{# content markup #}
+{% set content_markup %}
+
+  {% if icon_only %}
+    <span class="button__label sr-only">
+      {{ label }}
+    </span>
+  {% else %}
+    <span class="button__label">
+      {{ label }}
+    </span>
+  {% endif %}
+
+  {% if has_icon %}
+    <span class="button__icon">
+      {{ icon(icon.pack_id, icon.icon_id, icon.settings) }}
+    </span>
+  {% endif %}
+{% endset %}
+
+{# element markup #}
+<button
+  {{ attributes.addClass(classes) }}
+  value="{{ input_value }}"
+  {{attributes.setAttribute('id',input_id)}}>
+
+  {{- content_markup -}}
+</button>

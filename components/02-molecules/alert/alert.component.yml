@@ -1,0 +1,39 @@
+name: alert
+description: alert
+group: "Molecules"
+status: experimental
+links:
+  - "https://emory.edu"
+
+variants:
+  informative:
+    title: Informative/neutral
+  positive:
+    title: Positive
+  warning:
+    title: Warning
+  negative:
+    title: Negative
+
+props:
+  type: object
+  # properties:
+
+
+slots:
+  title:
+    title: Title
+    description: 'Title of the alert'
+
+  content:
+    title: Content
+    description: 'Body content of the alert'
+
+  buttons:
+    title: Buttons
+    description: "Alert button actions."
+
+libraryOverrides:
+    css:
+      theme:
+        alert.css: {}

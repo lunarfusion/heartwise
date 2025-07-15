@@ -1,0 +1,13 @@
+name: Icon
+
+slots:
+  label: "Button Label"
+
+props:
+  has_icon: true
+  icon:
+    pack_id: heartwise_fontawesome_icons
+    icon_id: circle-info
+    settings:
+      icon_size: M
+      extra_class: button-icon

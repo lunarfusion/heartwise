@@ -1,0 +1,109 @@
+/*!
+ * Primitive variables are named for their literal color and mapped to an HSL value
+ * H - hue
+ * S - saturation
+ * L - lightness
+ * Hues follow the color wheel from 0 360:
+ * red, orange, yellow, green, blue, purple, red
+ */
+
+:root {
+  /*** Neutral ***/
+  --color-black: hsl(214, 5%, 0%);
+  --color-gray-005: hsl(214, 5%, 5%);
+  --color-gray-010: hsl(214, 5%, 10%);
+  --color-gray-020: hsl(214, 5%, 20%);
+  --color-gray-030: hsl(214, 5%, 30%);
+  --color-gray-040: hsl(214, 5%, 40%);
+  --color-gray-050: hsl(214, 5%, 50%);
+  --color-gray-060: hsl(214, 5%, 60%);
+  --color-gray-070: hsl(214, 5%, 70%);
+  --color-gray-075: hsl(214, 5%, 75%);
+  --color-gray-080: hsl(214, 5%, 80%);
+  --color-gray-085: hsl(214, 5%, 85%);
+  --color-gray-090: hsl(214, 5%, 90%);
+  --color-gray-095: hsl(214, 5%, 95%);
+  --color-gray-097: hsl(214, 5%, 97%);
+  --color-white: hsl(0, 5%, 100%);
+  
+  /*** Blue - "Emory Blue" ***/
+  --color-blue-010: hsl(214, 100%, 10%);
+  --color-blue-020: hsl(214, 100%, 21%);
+  /* primary #002F6C */
+  --color-blue-030: hsl(214, 100%, 30%);
+  --color-blue-040: hsl(214, 100%, 40%);
+  --color-blue-050: hsl(214, 100%, 50%);
+  --color-blue-060: hsl(214, 100%, 60%);
+  --color-blue-070: hsl(214, 100%, 70%);
+  --color-blue-080: hsl(214, 100%, 80%);
+  --color-blue-085: hsl(214, 100%, 85%);
+  --color-blue-090: hsl(214, 100%, 90%);
+  --color-blue-093: hsl(214, 100%, 93%);
+  --color-blue-095: hsl(214, 100%, 95%);
+  --color-blue-097: hsl(214, 100%, 97%);
+  
+  /*** Blue Alpha ***/
+  --color-blue-020-a50: hsla(214, 100%, 50%, 0.5);
+  --color-blue-020-a70: hsla(214, 100%, 50%, 0.7);
+  --color-blue-020-a75: hsla(214, 100%, 50%, 0.75);
+  --color-blue-020-a90: hsla(214, 100%, 50%, 0.9);
+  
+  /*** Yellow - "Emory Yellow" ***/
+  --color-yellow-010: hsl(42, 100%, 10%);
+  --color-yellow-020: hsl(42, 100%, 20%);
+  --color-yellow-030: hsl(42, 100%, 30%);
+  --color-yellow-040: hsl(42, 100%, 40%);
+  --color-yellow-047: hsl(42, 100%, 47%);
+  /* primary #F2A900 */
+  --color-yellow-050: hsl(42, 100%, 50%);
+  --color-yellow-060: hsl(42, 100%, 60%);
+  --color-yellow-070: hsl(42, 100%, 70%);
+  --color-yellow-080: hsl(42, 100%, 80%);
+  --color-yellow-090: hsl(42, 100%, 90%);
+  --color-yellow-095: hsl(42, 100%, 95%);
+  
+  /*** Cyan - "Candler Lake" ***/
+  --color-cyan-010: hsl(200, 100%, 10%);
+  --color-cyan-020: hsl(200, 100%, 20%);
+  --color-cyan-030: hsl(200, 100%, 30%);
+  --color-cyan-036: hsl(200, 100%, 36%);
+  /* primary #007DBA */
+  --color-cyan-040: hsl(200, 100%, 40%);
+  --color-cyan-045: hsl(200, 100%, 45%);
+  --color-cyan-050: hsl(200, 100%, 50%);
+  --color-cyan-060: hsl(200, 100%, 60%);
+  --color-cyan-070: hsl(200, 100%, 70%);
+  --color-cyan-075: hsl(200, 100%, 75%);
+  --color-cyan-080: hsl(200, 100%, 80%);
+  --color-cyan-085: hsl(200, 100%, 85%);
+  --color-cyan-090: hsl(200, 100%, 90%);
+  --color-cyan-095: hsl(200, 100%, 95%);
+  
+  /*** Red - "Wise Heart" ***/
+  --color-red-010: hsl(10, 71%, 10%);
+  --color-red-020: hsl(10, 71%, 20%);
+  --color-red-030: hsl(10, 71%, 30%);
+  --color-red-040: hsl(10, 71%, 40%);
+  --color-red-048: hsl(10, 71%, 48%);
+  /* primary #D14124 */
+  --color-red-050: hsl(10, 71%, 50%);
+  --color-red-060: hsl(10, 71%, 60%);
+  --color-red-070: hsl(10, 71%, 70%);
+  --color-red-080: hsl(10, 71%, 80%);
+  --color-red-090: hsl(10, 71%, 90%);
+  --color-red-095: hsl(10, 71%, 95%);
+  
+  /*** Green - "Lullwater" ***/
+  --color-green-010: hsl(156, 80%, 10%);
+  --color-green-014: hsl(156, 80%, 14%);
+  /* primary #00482B */
+  --color-green-020: hsl(156, 80%, 20%);
+  --color-green-030: hsl(156, 80%, 30%);
+  --color-green-040: hsl(156, 80%, 40%);
+  --color-green-050: hsl(156, 80%, 50%);
+  --color-green-060: hsl(156, 80%, 60%);
+  --color-green-070: hsl(156, 80%, 70%);
+  --color-green-080: hsl(156, 80%, 80%);
+  --color-green-090: hsl(156, 80%, 90%);
+  --color-green-095: hsl(156, 80%, 95%);
+}

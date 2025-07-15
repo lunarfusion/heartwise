@@ -1,0 +1,9 @@
+name: Default
+
+props:
+  disabled: false
+  has_icon: false
+  icon_only: false
+
+slots:
+  label: "Button Label"

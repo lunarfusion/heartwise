@@ -4,17 +4,13 @@
     --color-fg-base: var(--color-white);
     --color-fg-subdued: var(--color-gray-095);
     
-    --color-fg-base: var(--color-black);
+    --color-bg-base: var(--color-black);
     
-    --color-fg-primary: var(--color-blue-080);
-    --color-fg-secondary: var(--color-cyan-080);
-    
-    --color-border-primary: var(--color-blue-060);
-    --color-border-primary-light: var(--color-blue-080);
-    
-    /*** Borders - Base Theme - Neutral ***/
-    --color-border-neutral: var(--color-gray-080);
-    --color-border-neutral-light: var(--color-gray-095);
+    /*** Background - Neutral ***/
+    --color-bg-neutral-dark: var(--color-gray-030);
+    --color-bg-neutral: var(--color-gray-020);
+    --color-bg-neutral-light: var(--color-gray-015);
+    --color-bg-neutral-extra-light: var(--color-gray-010);
     
     /*** Actions - Link Text ***/
     --color-link-default: var(--color-cyan-080);
@@ -22,6 +18,27 @@
     --color-link-focus: var(--color-cyan-060);
     --color-link-active: var(--color-cyan-080);
     --color-link-visited: var(--color-fg-base);
+    
+    /********* SYSTEM ALERTS *********/
+    /*** Negative ***/
+    --color-fg-negative: var(--color-red-060);
+    --color-border-negative: var(--color-red-040);
+    --color-bg-negative: var(--color-red-010);
+    
+    /*** Warning ***/
+    --color-fg-warning: var(--color-yellow-060);
+    --color-border-warning: var(--color-yellow-060);
+    --color-bg-warning: var(--color-yellow-010);
+    
+    /*** Positive ***/
+    --color-fg-positive: var(--color-green-060);
+    --color-border-positive: var(--color-green-030);
+    --color-bg-positive: var(--color-green-010);
+    
+    /*** Informative ***/
+    --color-fg-informative: var(--color-blue-060);
+    --color-border-informative: var(--color-blue-040);
+    --color-bg-informative: var(--color-blue-010);
     
     
     /********* FOREGROUND SWAPS ON LIGHT BACKGROUNDS *********/

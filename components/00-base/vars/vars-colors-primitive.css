@@ -10,6 +10,7 @@
 :root {
   /*** Neutral ***/
   --color-black: hsl(214, 5%, 0%);
+  --color-gray-003: hsl(214, 5%, 3%);
   --color-gray-005: hsl(214, 5%, 5%);
   --color-gray-010: hsl(214, 5%, 10%);
   --color-gray-020: hsl(214, 5%, 20%);

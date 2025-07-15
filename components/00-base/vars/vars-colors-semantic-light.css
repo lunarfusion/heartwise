@@ -76,8 +76,6 @@
   --color-border-tertiary: var(--color-yellow-060);
   --color-border-tertiary-light: var(--color-yellow-070);
   
-  
-  
   /*** STATIC does not change with dark mode or other themes ***/
   /*** Foreground / Text - Static ***/
   --color-fg-white-static: var(--color-white);

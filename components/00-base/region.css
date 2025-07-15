@@ -1,5 +1,5 @@
 .region--banner {
-  /* placeholder */
+    /* placeholder */
   }
   .region--content-top {
     padding-block: 1rem;
@@ -13,4 +13,14 @@
   .region--footer {
     background-color: var(--color-bg-primary-light);
     padding-block: 2rem;
+    color: var(--color-fg-black-static);
   }
+  .region--footer h2,
+    .region--footer h3,
+    .region--footer h4 {
+      color: var(--color-fg-primary);
+    }
+  .region--footer p,
+    .region--footer li {
+      color: var(--color-fg-black-static);
+    }

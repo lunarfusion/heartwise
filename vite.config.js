@@ -81,7 +81,7 @@ export default {
 		// we need a strict port to match on PHP side
 		// change freely, but update on PHP to match the same port
 		strictPort: true,
-		port: 12323,
+		port: 12324,
 
 		hmr: {
 			host: 'localhost',

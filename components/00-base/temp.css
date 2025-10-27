@@ -1,0 +1,20 @@
+.search-block-form {
+  position: relative;
+  margin-block: auto;
+}
+
+form#search-block-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+form#search-block-form .form-item {
+    display: flex;
+    align-items: center;
+  }
+
+#block-heartwise-account-menu {
+  display: flex;
+  align-items: center;
+}

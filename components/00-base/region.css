@@ -11,7 +11,7 @@
     /* placeholder */
   }
   .region--footer {
-    background-color: var(--color-bg-primary-light);
+    background-color: var(--color-bg-primary-03);
     padding-block: 2rem;
     color: var(--color-fg-black-static);
   }

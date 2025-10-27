@@ -12,12 +12,28 @@
     --color-bg-neutral-light: var(--color-gray-015);
     --color-bg-neutral-extra-light: var(--color-gray-010);
     
+    /*** Borders - Base Theme - Neutral ***/
+    --color-border-neutral-dark: var(--color-gray-030);
+    --color-border-neutral: var(--color-gray-020);
+    --color-border-neutral-light: var(--color-gray-015);
+    --color-border-neutral-extra-light: var(--color-gray-010);
+    
+    /****************** SYSTEM ******************/
+    /*** Focus Indicator ***/
+    --color-focus-indicator: var(--color-yellow-080);
+    
+    /*** System accent color ***/
+    --color-accent: var(--color-blue-080);
+    
     /*** Actions - Link Text ***/
-    --color-link-default: var(--color-cyan-080);
-    --color-link-hover: var(--color-cyan-060);
-    --color-link-focus: var(--color-cyan-060);
-    --color-link-active: var(--color-cyan-080);
+    --color-link-default: var(--color-blue-080);
+    --color-link-hover: var(--color-blue-060);
+    --color-link-focus: var(--color-blue-060);
+    --color-link-active: var(--color-blue-080);
     --color-link-visited: var(--color-fg-base);
+    --color-link-decoration: var(--color-cyan-080);
+    --color-link-decoration-hover: var(--color-blue-070);
+    --color-link-disabled: var(--color-gray-080);
     
     /********* SYSTEM ALERTS *********/
     /*** Negative ***/
@@ -40,6 +56,24 @@
     --color-border-informative: var(--color-blue-040);
     --color-bg-informative: var(--color-blue-010);
     
+    /****************** PRIMARY BRAND ******************/
+    /*** Foreground ***/
+    --color-fg-primary: var(--color-blue-080);
+    --color-fg-primary-medium: var(--color-blue-070);
+    
+    /*** Background ***/
+    --color-bg-primary-00: var(--color-blue-090);
+    /* dark */
+    --color-bg-primary-01: var(--color-blue-080);
+    --color-bg-primary-02: var(--color-blue-060);
+    /* medium */
+    --color-bg-primary-03: var(--color-blue-020);
+    --color-bg-primary-04: var(--color-blue-010);
+    /* light */
+    
+    /*** Border ***/
+    --color-border-primary: var(--color-blue-020);
+    --color-border-primary-02: var(--color-blue-060);
     
     /********* FOREGROUND SWAPS ON LIGHT BACKGROUNDS *********/
     .inverted-bg {

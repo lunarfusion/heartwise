@@ -1,0 +1,17 @@
+.figure {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border: var(--color-border-primary);
+}
+  
+  /* add margin when in main node content */
+  .field--body .figure {
+    margin-block: 2rem;
+  }
+  .figure__image {}
+  .figure__caption {
+    padding: 0.25rem 0.5rem;
+    font-size: var(--size-text-small);
+    color: var(--color-fg-subdued);
+  }

@@ -1,0 +1,19 @@
+.figure {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border: var(--color-border-primary);
+  
+  /* add margin when in main node content */
+  .field--body & {
+    margin-block: 2rem;
+  }
+  
+  &__image {}
+  
+  &__caption {
+    padding: 0.25rem 0.5rem;
+    font-size: var(--size-text-small);
+    color: var(--color-fg-subdued);
+  }
+}

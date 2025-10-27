@@ -53,3 +53,6 @@ This repo has stylelintrc.json for setting linting rules and stylelintignore for
 To run linting on PostCSS:
 'npx stylelint "src/postcss/*.css"'
 
+## Contributing
+
+Reference (contributing docs)[docs/contributing.md]

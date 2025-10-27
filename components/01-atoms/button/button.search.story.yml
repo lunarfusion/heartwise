@@ -1,0 +1,17 @@
+name: Search
+
+variant: empty
+
+slots:
+  label: "Search"
+
+props:
+  has_icon: true
+  icon_only: true
+  input_value: 'Search'
+  icon:
+    pack_id: heartwise_fontawesome_icons
+    icon_id: magnifying-glass
+    settings:
+      icon_size: M
+      extra_class: button-search-icon

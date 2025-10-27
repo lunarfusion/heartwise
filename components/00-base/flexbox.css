@@ -4,7 +4,7 @@
   width: 100%;
   max-inline-size: 1500px;
   min-width: 320px;
-
+  
   margin-left: auto;
   margin-right: auto;
   padding-inline: var(--size-gap-x);
@@ -17,15 +17,18 @@
 .row--wrap {
     flex-wrap: wrap;
   }
+.row--justify-sp-between {
+    justify-content: space-between;
+  }
 .col {
   --col-spacing: calc(var(--size-gap-x) * 2);
-
+  
   position: relative;
   inline-size: auto;
   max-inline-size: 100%;
   flex-grow: 1;
   flex-basis: 0;
-
+  
   padding-inline: var(--size-gap-x);
   margin-block: var(--size-gap-y);
 }
@@ -62,6 +65,7 @@
   } */
 }
 @media (max-width: 776px) {
+
   .col,
   .col--9,
   .col--6,

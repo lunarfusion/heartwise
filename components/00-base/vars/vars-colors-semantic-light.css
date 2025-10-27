@@ -45,36 +45,45 @@
   --color-link-decoration-hover: var(--color-blue-050);
   --color-link-disabled: var(--color-gray-070);
   
+  /********* SYSTEM ALERTS *********/
+  /*** Negative ***/
+  --color-fg-negative: var(--color-red-090);
+  --color-border-negative: var(--color-red-070);
+  --color-bg-negative: var(--color-red-090);
+  
+  /*** Warning ***/
+  --color-fg-warning: var(--color-yellow-090);
+  --color-border-warning: var(--color-yellow-070);
+  --color-bg-warning: var(--color-yellow-090);
+  
+  /*** Positive ***/
+  --color-fg-positive: var(--color-green-090);
+  --color-border-positive: var(--color-green-070);
+  --color-bg-positive: var(--color-green-090);
+  
+  /*** Informative ***/
+  --color-fg-informative: var(--color-blue-090);
+  --color-border-informative: var(--color-blue-070);
+  --color-bg-informative: var(--color-blue-090);
+  
   /****************** PRIMARY BRAND ******************/
   /*** Foreground ***/
   --color-fg-primary: var(--color-blue-020);
   --color-fg-primary-medium: var(--color-blue-040);
   
   /*** Background ***/
-  --color-bg-primary-dark: var(--color-blue-010);
-  --color-bg-primary: var(--color-blue-020);
-  --color-bg-primary-medium: var(--color-blue-040);
-  --color-bg-primary-light: var(--color-blue-080);
-  --color-bg-primary-extra-light: var(--color-blue-095);
+  --color-bg-primary-00: var(--color-blue-010);
+  /* dark */
+  --color-bg-primary-01: var(--color-blue-020);
+  --color-bg-primary-02: var(--color-blue-040);
+  /* medium */
+  --color-bg-primary-03: var(--color-blue-080);
+  --color-bg-primary-04: var(--color-blue-095);
+  /* light */
   
   /*** Border ***/
   --color-border-primary: var(--color-blue-020);
-  --color-border-primary-light: var(--color-blue-060);
-  
-  /****************** SECONDARY BRAND ******************/
-  /*** Foreground ***/
-  --color-fg-secondary: var(--color-cyan-020);
-  
-  /*** Background ***/
-  --color-bg-secondary: var(--color-cyan-040);
-  --color-bg-secondary-light: var(--color-cyan-080);
-  --color-bg-secondary-extra-light: var(--color-cyan-090);
-  
-  --color-border-secondary: var(--color-cyan-040);
-  --color-border-secondary-light: var(--color-cyan-070);
-  
-  --color-border-tertiary: var(--color-yellow-060);
-  --color-border-tertiary-light: var(--color-yellow-070);
+  --color-border-primary-02: var(--color-blue-060);
   
   /*** STATIC does not change with dark mode or other themes ***/
   /*** Foreground / Text - Static ***/
@@ -84,28 +93,6 @@
   /*** Background - Static ***/
   --color-bg-white-static: var(--color-white);
   --color-bg-black-static: var(--color-black);
-  
-  
-  /********* SYSTEM ALERTS *********/
-  /*** Negative ***/
-  --color-fg-negative: var(--color-red-030);
-  --color-border-negative: var(--color-red-040);
-  --color-bg-negative: var(--color-red-095);
-  
-  /*** Warning ***/
-  --color-fg-warning: var(--color-yellow-040);
-  --color-border-warning: var(--color-yellow-060);
-  --color-bg-warning: var(--color-yellow-095);
-  
-  /*** Positive ***/
-  --color-fg-positive: var(--color-green-020);
-  --color-border-positive: var(--color-green-030);
-  --color-bg-positive: var(--color-green-095);
-  
-  /*** Informative ***/
-  --color-fg-informative: var(--color-blue-030);
-  --color-border-informative: var(--color-blue-040);
-  --color-bg-informative: var(--color-blue-095);
   
   /********* FOREGROUND SWAPS ON DARK BACKGROUNDS *********/
   .inverted-bg {

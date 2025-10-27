@@ -49,6 +49,11 @@ props:
       title: Input value
       default: submit
 
+    search:
+      title: Search button with Icon
+      type: boolean
+      default: false
+
 slots:
   label:
     title: Label

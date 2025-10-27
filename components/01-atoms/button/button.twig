@@ -28,7 +28,16 @@
 
   {% if has_icon %}
     <span class="button__icon">
-      {{ icon(icon.pack_id, icon.icon_id, icon.settings) }}
+
+      {% if search %}
+        <svg class="icon icon--M icon--search-icon" height="20" width="20" fill="currentColor" aria-hidden="true" role="img" xmlns="http://www.w3.org/2000/svg">
+          <use xlink:href="/themes/custom/heartwise/dist/icons/sprites/solid.svg#magnifying-glass" href="/themes/custom/heartwise/dist/icons/sprites/solid.svg#magnifying-glass"></use>
+        </svg>
+
+      {% else %}
+        {{ icon(icon.pack_id, icon.icon_id, icon.settings) }}
+      {% endif %}
+
     </span>
   {% endif %}
 {% endset %}

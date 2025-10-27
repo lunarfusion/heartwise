@@ -1,0 +1,14 @@
+{% set classes = [
+  'figure',
+  variant and variant != 'default' ? variant : ''
+] %}
+
+<figure{{ attributes.addClass(classes) }}>
+  <div class="figure__image">
+    {{ image }}
+  </div>
+  <figcaption class="figure__caption">
+    {{ caption }}
+  </figcaption>
+</figure>
+

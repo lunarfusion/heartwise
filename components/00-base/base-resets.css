@@ -38,10 +38,6 @@ body {
   min-height: 100vh;
 }
 
-p {
-  color: var(--color-fg-base);
-}
-
 @viewport {
   width: device-width;
 }
@@ -78,6 +74,10 @@ img {
 
 
 /*** Typography resets ***/
+a {
+  color: var(--color-accent);
+}
+
 h1,
 .h1,
 h2,
@@ -199,7 +199,6 @@ li {
 
 
 /************* TEMP DRUPAL DISPLAY *************/
-
 nav ul,
 .contextual-region ul:not(.contextual-links) {
   display: flex;

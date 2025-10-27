@@ -1,30 +1,43 @@
 .branding {
-  background-color: var(--color-bg-primary-light);
-  padding-block: 2rem;
-
+  background-color: var(--color-bg-primary-03);
+  padding: 2rem 1.5rem;
+  
   &__content {
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+    gap: 1.25rem;
   }
-
+  
   &__logo {
-    inline-size: 50px;
+    inline-size: 70px;
   }
-
+  
   &__sitename {
     font-family: var(--font-serif);
     color: var(--color-fg-primary);
     font-size: calc(var(--size-text-lrg) * 2);
     line-height: 1.1;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-inline-start: 2px solid var(--color-fg-base);
+    padding-inline-start: 1.25rem;
+    
     a,
     a:hover,
     a:focus,
     a:visited,
     a:active {
       font-size: inherit;
+      line-height: inherit;
       color: inherit;
+      display: inline-flex;
     }
+  }
+  
+  &__siteslogan {
+    font-size: var(--size-text-lrg);
+    color: var(--color-fg-base);
+    font-weight: 400;
   }
 }

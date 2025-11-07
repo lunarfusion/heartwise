@@ -14,3 +14,25 @@ Components in Heartwise should:
  - not replicate functionality of existing components
  - use BEM CSS, with double underscores for elements (&__element) and double dashes for variants (&--variant)
  - include story YMLs for expected implementations of variants
+
+
+## Issues
+
+Issue branches should be named for the issue # and include the agreed upon acronym for the project, sprint, or whatever convention the team decides.
+
+Example:
+
+HWD-008 (Heartwise Drupal issue #8).
+
+## Commits
+
+Use conventional commits where applicable. Learn about them [here.](https://www.conventionalcommits.org/en/v1.0.0/).
+
+New component or variant:
+--feat: xxxxx
+
+Update node packages:
+--core: xxxxxx
+
+Correct a bug:
+--fix: xxxxxx

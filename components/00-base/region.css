@@ -13,7 +13,7 @@
   .region--footer {
     background-color: var(--color-bg-primary-03);
     padding-block: 2rem;
-    color: var(--color-fg-black-static);
+    color: var(--color-fg-base);
   }
   .region--footer h2,
     .region--footer h3,
@@ -22,5 +22,5 @@
     }
   .region--footer p,
     .region--footer li {
-      color: var(--color-fg-black-static);
+      color: var(--color-fg-base);
     }
